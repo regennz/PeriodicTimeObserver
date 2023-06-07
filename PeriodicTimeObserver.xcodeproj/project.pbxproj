@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFA1B41B2A301BC30081BFF1 /* PeriodicTimeObserverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1B41A2A301BC30081BFF1 /* PeriodicTimeObserverApp.swift */; };
+		DFA1B41D2A301BC30081BFF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1B41C2A301BC30081BFF1 /* ContentView.swift */; };
+		DFA1B41F2A301BC40081BFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA1B41E2A301BC40081BFF1 /* Assets.xcassets */; };
+		DFA1B4222A301BC40081BFF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFA1B4212A301BC40081BFF1 /* Preview Assets.xcassets */; };
+		DFA1B4292A301BD60081BFF1 /* CustomVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1B4282A301BD60081BFF1 /* CustomVideoPlayer.swift */; };
+		DFA1B42B2A301BF10081BFF1 /* VideoPlayerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1B42A2A301BF10081BFF1 /* VideoPlayerRepresentable.swift */; };
+		DFA1B42D2A301C2C0081BFF1 /* CustomVideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1B42C2A301C2C0081BFF1 /* CustomVideoPlayerViewModel.swift */; };
+		DFA8BCD92A302FBB006DEDE3 /* CustomVideoPlayerNoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA8BCD82A302FBB006DEDE3 /* CustomVideoPlayerNoVM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFA1B4172A301BC30081BFF1 /* PeriodicTimeObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriodicTimeObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFA1B41A2A301BC30081BFF1 /* PeriodicTimeObserverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicTimeObserverApp.swift; sourceTree = "<group>"; };
+		DFA1B41C2A301BC30081BFF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DFA1B41E2A301BC40081BFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFA1B4212A301BC40081BFF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFA1B4282A301BD60081BFF1 /* CustomVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayer.swift; sourceTree = "<group>"; };
+		DFA1B42A2A301BF10081BFF1 /* VideoPlayerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerRepresentable.swift; sourceTree = "<group>"; };
+		DFA1B42C2A301C2C0081BFF1 /* CustomVideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		DFA8BCD82A302FBB006DEDE3 /* CustomVideoPlayerNoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayerNoVM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFA1B4142A301BC30081BFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFA1B40E2A301BC30081BFF1 = {
+			isa = PBXGroup;
+			children = (
+				DFA1B4192A301BC30081BFF1 /* PeriodicTimeObserver */,
+				DFA1B4182A301BC30081BFF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFA1B4182A301BC30081BFF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFA1B4172A301BC30081BFF1 /* PeriodicTimeObserver.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA1B4192A301BC30081BFF1 /* PeriodicTimeObserver */ = {
+			isa = PBXGroup;
+			children = (
+				DFA1B41A2A301BC30081BFF1 /* PeriodicTimeObserverApp.swift */,
+				DFA1B41C2A301BC30081BFF1 /* ContentView.swift */,
+				DFA1B4282A301BD60081BFF1 /* CustomVideoPlayer.swift */,
+				DFA1B42C2A301C2C0081BFF1 /* CustomVideoPlayerViewModel.swift */,
+				DFA8BCD82A302FBB006DEDE3 /* CustomVideoPlayerNoVM.swift */,
+				DFA1B42A2A301BF10081BFF1 /* VideoPlayerRepresentable.swift */,
+				DFA1B41E2A301BC40081BFF1 /* Assets.xcassets */,
+				DFA1B4202A301BC40081BFF1 /* Preview Content */,
+			);
+			path = PeriodicTimeObserver;
+			sourceTree = "<group>";
+		};
+		DFA1B4202A301BC40081BFF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DFA1B4212A301BC40081BFF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFA1B4162A301BC30081BFF1 /* PeriodicTimeObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFA1B4252A301BC40081BFF1 /* Build configuration list for PBXNativeTarget "PeriodicTimeObserver" */;
+			buildPhases = (
+				DFA1B4132A301BC30081BFF1 /* Sources */,
+				DFA1B4142A301BC30081BFF1 /* Frameworks */,
+				DFA1B4152A301BC30081BFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriodicTimeObserver;
+			productName = PeriodicTimeObserver;
+			productReference = DFA1B4172A301BC30081BFF1 /* PeriodicTimeObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFA1B40F2A301BC30081BFF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DFA1B4162A301BC30081BFF1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DFA1B4122A301BC30081BFF1 /* Build configuration list for PBXProject "PeriodicTimeObserver" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFA1B40E2A301BC30081BFF1;
+			productRefGroup = DFA1B4182A301BC30081BFF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFA1B4162A301BC30081BFF1 /* PeriodicTimeObserver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFA1B4152A301BC30081BFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA1B4222A301BC40081BFF1 /* Preview Assets.xcassets in Resources */,
+				DFA1B41F2A301BC40081BFF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFA1B4132A301BC30081BFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA1B42D2A301C2C0081BFF1 /* CustomVideoPlayerViewModel.swift in Sources */,
+				DFA8BCD92A302FBB006DEDE3 /* CustomVideoPlayerNoVM.swift in Sources */,
+				DFA1B41D2A301BC30081BFF1 /* ContentView.swift in Sources */,
+				DFA1B42B2A301BF10081BFF1 /* VideoPlayerRepresentable.swift in Sources */,
+				DFA1B41B2A301BC30081BFF1 /* PeriodicTimeObserverApp.swift in Sources */,
+				DFA1B4292A301BD60081BFF1 /* CustomVideoPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DFA1B4232A301BC40081BFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFA1B4242A301BC40081BFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFA1B4262A301BC40081BFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodicTimeObserver/Preview Content\"";
+				DEVELOPMENT_TEAM = 38ZJGJBF86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danieltoo.PeriodicTimeObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFA1B4272A301BC40081BFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PeriodicTimeObserver/Preview Content\"";
+				DEVELOPMENT_TEAM = 38ZJGJBF86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.danieltoo.PeriodicTimeObserver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFA1B4122A301BC30081BFF1 /* Build configuration list for PBXProject "PeriodicTimeObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA1B4232A301BC40081BFF1 /* Debug */,
+				DFA1B4242A301BC40081BFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFA1B4252A301BC40081BFF1 /* Build configuration list for PBXNativeTarget "PeriodicTimeObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFA1B4262A301BC40081BFF1 /* Debug */,
+				DFA1B4272A301BC40081BFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFA1B40F2A301BC30081BFF1 /* Project object */;
+}
